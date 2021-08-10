@@ -21,4 +21,5 @@ for i in range(9999):
     title = fake.job()
     email = fake.email()
     fwrite.writerow([user_name, phone, card_id, company, addr, bank_card, title, email])
+    # 关联字段的表可以在循环中写逻辑进行存储
 file.close()

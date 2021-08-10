@@ -6,6 +6,8 @@ faker = Faker('zh_CN')
 
 # 个人信息
 print('姓名:', faker.name())
+print('user_name:', faker.user_name())
+
 print('first name:', faker.first_name())
 print('last name:', faker.last_name())
 print('密码:', faker.password())
